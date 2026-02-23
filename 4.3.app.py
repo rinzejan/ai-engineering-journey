@@ -29,7 +29,21 @@ if "retriever" not in st.session_state:
 if "pdf_name" not in st.session_state:
     st.session_state.pdf_name = None
 
-
+# Show example questions when no PDF is loaded
+if not st.session_state.retriever:
+    st.info("👈 Upload a PDF in the sidebar to get started")
+    
+    st.subheader("💡 What can this app do?")
+    col1, col2 = st.columns(2)
+    with col1:
+        st.success("✅ Chat with any PDF")
+        st.success("✅ Remembers conversation")
+        st.success("✅ Works in any language")
+    with col2:
+        st.success("✅ Cites sources")
+        st.success("✅ Honest about gaps")
+        st.success("✅ No hallucination")
+        
 # ── Load PDF function ─────────────────────────────────────
 @st.cache_resource  # cache so it doesn't reload on every interaction
 def load_pdf(file_path: str, file_name: str):

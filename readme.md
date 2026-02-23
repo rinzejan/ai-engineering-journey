@@ -22,6 +22,16 @@ Covers OpenAI and Anthropic APIs, prompt engineering, tool calling, and document
 | summarizer.py | PDF summarizer (short documents) |
 | summarizer_long.py | PDF summarizer for documents of any length |
 
+### Week 4 — LangChain & Deployment
+| Project | Description | Live Demo |
+|---------|-------------|-----------|
+| app.py | Chat with any PDF — RAG web app | [rinzejan.streamlit.app](https://rinzejan.streamlit.app) |
+| rag_memory.py | RAG with conversation memory | — |
+| langchain_basics.py | LangChain fundamentals | — |
+
+## Live Demo
+Try the app here: https://rinzejan.streamlit.app
+Upload any PDF and start asking questions!
 ## Setup
 
 1. Clone this repo
@@ -43,6 +53,6 @@ Covers OpenAI and Anthropic APIs, prompt engineering, tool calling, and document
 - [x] Week 1 — API Foundations
 - [x] Week 2 — Core Skills
 - [x] Week 3 — Embeddings & RAG
-- [ ] Week 4 — LangChain & Deployment
+- [x] Week 4 — LangChain & Deployment
 - [ ] Week 5 — AI Agents
 - [ ] Week 6 — Capstone Project
