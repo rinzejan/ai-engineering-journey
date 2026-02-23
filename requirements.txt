@@ -7,3 +7,4 @@ langchain-text-splitters
 streamlit
 chromadb
 pymupdf
+ddgs
