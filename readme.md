@@ -42,7 +42,7 @@ Covers OpenAI and Anthropic APIs, prompt engineering, tool calling, and document
 ## Progress
 - [x] Week 1 — API Foundations
 - [x] Week 2 — Core Skills
-- [ ] Week 3 — Embeddings & RAG
+- [x] Week 3 — Embeddings & RAG
 - [ ] Week 4 — LangChain & Deployment
 - [ ] Week 5 — AI Agents
 - [ ] Week 6 — Capstone Project
